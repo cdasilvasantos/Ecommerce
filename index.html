@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPaws</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Pawsitively Green <br> Naturally Clean!</h1>
+                    <p>Offering a diverse selection of eco-friendly pet products, curated to meet the needs of environmentally conscious pet owners.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/pets.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shop By Pet -->
+
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">Shop By Pet</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/dog-categ.webp">
+                    <a href="">Dog</a>
+                </div>
+                <div class="col-3">
+                    <img src="images/cat-categ.webp">
+                    <a href="">Cat</a>
+                </div>
+                <div class="col-3">
+                    <img src="images/pets-categ.webp">
+                    <a href="">Other Pets</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/poopbags.webp.png"></a>
+                <h4>Compostable Dog Poop Bags</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$9.99</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bowls.png.webp">
+                <h4>Classic Bamboo Bowls</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$16.50</p>
+            </div>
+            <div class="col-4">
+                <img class="toy" src="images/toy.jpg.webp">
+                <h4>Hemp Ball and Loop Dog Toy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$14.99</p>
+            </div>
+            <div class="col-4">
+                <img class="harness" src="images/harness.jpg.webp">
+                <h4>Recycled Bottle Harness</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        
+    <!-- Blog -->
+    <div class="blog">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/blog.webp" class="blog-img">
+                </div>
+                <div class="col-2">
+                    <h1>Read Our Blog</h1>
+                    <small>Continue your journey towards a greener world by exploring our enlightening blogs, designed to empower you with insights and tips for creating positive environmental change.<br></small>
+                    <a href="products.html" class="btn">Read Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Absolutely thrilled with the eco-friendly pet supplies from this store! My furry friend adores the toys and I love knowing that we're reducing our environmental pawprint. Five stars all the way!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/test1.webp">
+                    <h3>Sam Jones</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Highly recommend this e-commerce gem for all pet parents looking to go green! The quality of their products is top-notch, and the eco-friendly packaging is a huge bonus. A definite five-star experience!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/test2.webp">
+                    <h3>John Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>From biodegradable poop bags to organic treats, this store has everything I need to spoil my pet guilt-free. Exceptional customer service and fast shipping too. Five stars without hesitation!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/test3.webp">
+                    <h3>Victoria Blake</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>"Our company aims to revolutionize the pet industry by providing a comprehensive range of eco-friendly products and fostering a sustainable lifestyle for pet owners worldwide."
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Products</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - EcoPaws</p>
+        </div>
+    </div>
+
+    <!-- javascript -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
